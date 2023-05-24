@@ -155,3 +155,36 @@ span {
 .section_2_div div {
   text-align: center;
 }
+
+/* section 3 */
+
+.section_3 {
+  background: #402101;
+  padding: 96px 19%;
+}
+
+.section_3 h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.grid_father {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 60px;
+}
+
+.grid_father img:first-child {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.grid_father img {
+  width: 100%;
+  height: 100%;
+}
