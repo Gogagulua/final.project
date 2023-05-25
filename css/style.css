@@ -321,3 +321,76 @@ span {
   display: flex;
   justify-content: center;
 }
+
+/* article 1 */
+
+.article_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 160px 0;
+}
+
+.article_1 h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #402101;
+}
+
+.article_div_lite {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 112px;
+}
+
+.cards h6 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 24px;
+
+  color: #b53b1b;
+}
+
+.cards p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #402101;
+}
+
+.cards {
+  width: 23%;
+  background: rgba(213, 144, 110, 0.3);
+  border-radius: 8px;
+}
+
+.article_1 h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 20px;
+
+  color: #402101;
+}
+
+.article_1 button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ffffff;
+  background: #b53b1b;
+  border-radius: 10px;
+  padding: 0.6% 3%;
+}
