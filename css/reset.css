@@ -11,3 +11,7 @@ a {
 ul {
   list-style: none;
 }
+
+input {
+  background-color: inherit;
+}

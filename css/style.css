@@ -267,3 +267,57 @@ span {
   width: 100%;
   height: 100%;
 }
+
+/* section 5 */
+
+.section_5 {
+  height: 480px;
+  background-image: url(../photos/Rectangle\ 98.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section_5_div h6 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 56px;
+
+  color: #ffffff;
+}
+
+.section_5_input {
+  width: 331px;
+  height: 56px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: none;
+  padding-left: 10px;
+
+  color: #ffffff;
+}
+
+.section_5_button {
+  width: 151px;
+  padding: 1.1% 8.5%;
+  background: #ffffff;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.section_5_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.section_5_form {
+  display: flex;
+  justify-content: center;
+}
