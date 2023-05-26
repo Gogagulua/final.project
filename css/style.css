@@ -446,3 +446,30 @@ footer {
   display: flex;
   gap: 16px;
 }
+
+/* ARTWORKS.CSS */
+
+.artwork_section_1 {
+  background-image: url(../photos/Rectangle\ 107.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 560px;
+}
+
+.art_sect_div1 h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #ffffff;
+}
+
+.art_sect_div1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 237px;
+  row-gap: 72px;
+}
