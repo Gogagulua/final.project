@@ -718,3 +718,60 @@ footer {
   background: #d5906e;
   border-radius: 10px;
 }
+
+/* contact section 2 */
+
+.contact_section_2 {
+  display: flex;
+  justify-content: center;
+  padding: 160px 0;
+}
+
+.contact_div_lite {
+  width: 1190px;
+  height: 408px;
+
+  background: rgba(213, 144, 110, 0.3);
+}
+
+.contact_section_2 h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 40px;
+
+  color: #402101;
+}
+
+.iframe_lite {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iframe_lite a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #b53b1b;
+}
+
+.iframe_lite p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  flex-direction: column;
+
+  color: #623932;
+}
+
+.iframe_lite div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
