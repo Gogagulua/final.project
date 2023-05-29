@@ -34,12 +34,18 @@ header {
   gap: 3.75rem;
 }
 
+.header_div_1 li:hover {
+  color: #d5906e;
+  transition: 0.2s linear;
+}
+
 .header_li_1 {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   color: #d5906e;
+  transition: 0.2s linear;
 }
 
 .header_li_2 {
@@ -48,6 +54,7 @@ header {
   font-size: 18px;
   line-height: 22px;
   color: #ffffff;
+  transition: 0.2s linear;
 }
 
 .header_li_3 {
@@ -56,6 +63,10 @@ header {
   font-size: 18px;
   line-height: 22px;
   color: #ffffff;
+  transition: 0.2s linear;
+}
+.header_div_1 li:active {
+  transform: translateY(4px);
 }
 
 .header_title {
@@ -84,9 +95,16 @@ span {
   font-size: 1rem;
   line-height: 19px;
   color: #ffffff;
+  transition: 0.2s linear;
 }
 .icon {
   color: white;
+  transition: 0.2s linear;
+}
+
+.header_div_icon p:hover {
+  color: #d5906e;
+  transition: 0.2s linear;
 }
 
 /* section */
@@ -130,6 +148,17 @@ span {
   border: 2px solid #d5906e;
   border-radius: 10px;
   background-color: initial;
+  transition: 0.25s linear;
+}
+
+.section_1_button:active {
+  transform: translateY(4px);
+}
+
+.section_1_button:hover {
+  color: black;
+  background-color: #d5906e;
+  transition: 0.25s linear;
 }
 
 /* section 2 */
@@ -293,7 +322,7 @@ span {
   width: 331px;
   height: 56px;
   border: 1px solid #ffffff;
-  border-radius: 10px;
+  border-radius: 10px 0px 0px 10px;
 
   font-style: normal;
   font-weight: 400;
@@ -397,6 +426,11 @@ span {
   padding: 0.6% 3%;
 }
 
+.article_1 button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 /* footer */
 
 footer {
@@ -445,6 +479,10 @@ footer {
 .footer_div_2 div {
   display: flex;
   gap: 16px;
+}
+
+.middle_icon {
+  margin: 0px 27px;
 }
 
 /* ARTWORKS.CSS */
@@ -594,6 +632,10 @@ footer {
   /* border: 2px solid darkorange; */
 }
 
+.lite_cards:hover {
+  box-shadow: 0 10px 5px rgb(94, 94, 94);
+}
+
 .name_p {
   font-style: normal;
   font-weight: 400;
@@ -717,6 +759,10 @@ footer {
   color: #ffffff;
   background: #d5906e;
   border-radius: 10px;
+}
+
+.contact_section_form button:active {
+  transform: translateY(4px);
 }
 
 /* contact section 2 */
