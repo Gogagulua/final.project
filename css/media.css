@@ -1,0 +1,311 @@
+/* FIRST PAGE  */
+
+@media (max-width: 1600px) {
+  .section_4_div {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 1350px) {
+  .arrow_1 {
+    display: none;
+  }
+  .arrow_2 {
+    display: none;
+  }
+  .section_4_div_lites h5 {
+    padding: 5% 6%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .section_4_div {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1040px) {
+  header {
+    padding: 26px 7%;
+  }
+
+  .section_2 {
+    padding: 110px 0;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section_2_div {
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 30%;
+    row-gap: 60px;
+  }
+
+  .section_3 {
+    padding: 96px 10%;
+  }
+
+  .grid_father img:nth-child(3) {
+    display: none;
+  }
+
+  .grid_father img:last-child {
+    display: none;
+  }
+
+  .grid_father img {
+    height: 37vw;
+  }
+
+  .grid_father {
+    display: flex;
+
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 978px) {
+  .section_1_div h2 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 900px) {
+  .burger_a {
+    display: block;
+  }
+
+  .menu_bar {
+    display: flex;
+  }
+
+  .burger_a ion-icon {
+    width: 32px;
+    height: 32px;
+    color: #ffff;
+  }
+
+  .header_title {
+    text-align: center;
+  }
+  .header_title span {
+    display: block;
+  }
+
+  .header_ul {
+    display: none;
+  }
+
+  .section_1_div {
+    width: 100%;
+  }
+
+  .section_1_div_p_1 {
+    width: 80%;
+    margin-top: 12px;
+    margin-bottom: 50px;
+  }
+
+  .section_1_button {
+    padding: 18px 80px;
+  }
+
+  .section_4 {
+    padding: 80px 5%;
+  }
+
+  .section_4 h4 {
+    font-size: 36px;
+    margin-bottom: 32px;
+  }
+
+  .section_4_div {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+  }
+  .section_4_div_lites img {
+    width: 79vw;
+    height: 50vw;
+  }
+  .section_4_div_lites h5 {
+    left: 5%;
+    top: 82%;
+    padding: 2.4% 4%;
+  }
+  .hide {
+    display: none;
+  }
+  .section_4 button {
+    display: block;
+  }
+
+  .article_1 {
+    padding: 80px 0;
+  }
+
+  .article_1 h3 {
+    font-size: 32px;
+  }
+
+  .article_div_lite {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    row-gap: 30px;
+  }
+
+  .cards {
+    width: 83%;
+  }
+
+  .article_1 h5 {
+    text-align: center;
+  }
+
+  .article_1 button {
+    padding: 1.2% 3.7%;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 45px;
+  }
+  .footer_div_1 {
+    text-align: center;
+  }
+  .footer_div_2 {
+    align-items: center;
+  }
+}
+
+@media (max-width: 569px) {
+  .section_1 {
+    height: 400px;
+  }
+  header {
+    padding: 10px 20px;
+  }
+
+  .section_1_div {
+    top: 60%;
+  }
+  .section_1_div_p_1 {
+    margin-top: 12px;
+    margin-bottom: 22px;
+  }
+  .section_1_button {
+    padding: 15px 41px;
+  }
+
+  .section_2 {
+    padding: 64px 0;
+  }
+  .section_2_div img {
+    width: 27.2vw;
+    height: 20vw;
+  }
+
+  .section_2_div p {
+    font-size: 16px;
+    margin-top: 8px;
+  }
+
+  .section_3 {
+    padding: 32px 4.3%;
+  }
+  .section_3 h3 {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+  .grid_father {
+    row-gap: 20px;
+  }
+  .grid_father img {
+    height: 50vw;
+  }
+
+  .section_4 {
+    padding: 64px 5%;
+  }
+
+  .section_4 h4 {
+    font-size: 32px;
+    margin-bottom: 28px;
+  }
+
+  .section_4_div_lites h5 {
+    top: 75%;
+    padding: 3% 4%;
+  }
+
+  .section_5 {
+    height: 200px;
+  }
+  .section_5_div h6 {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+  .section_5_input {
+    width: 195px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section_1 {
+    background-image: url(../photos/Rectangle\ 109.png);
+  }
+  .header_title {
+    font-size: 8vw;
+  }
+  span {
+    font-size: 8vw;
+  }
+  .section_1_div h2 {
+    width: 83%;
+    font-size: 6.6vw;
+    text-align: center;
+  }
+  .section_1_div_p_1 {
+    width: 94%;
+  }
+  .section_1_button {
+    padding: 3% 9%;
+  }
+
+  .section_5_div h6 {
+    font-size: 7vw;
+  }
+  .section_5_input {
+    width: 40.6vw;
+  }
+  .section_5_button {
+    width: 31.5vw;
+    font-size: 3.5vw;
+  }
+
+  .article_1 button {
+    padding: 14px 41px;
+  }
+  .article_1 h3 {
+    text-align: center;
+  }
+  .article_1 h5 {
+    width: 82%;
+  }
+}
+
+@media (max-width: 360px) {
+  .section_2_div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .section_2_div p {
+    width: 98%;
+  }
+}

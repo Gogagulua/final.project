@@ -9,7 +9,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css">
     <title>home page</title>
   </head>
   <body>
@@ -20,6 +23,10 @@
         <header>
           <div class="header_div_1">
             <nav>
+              <a class="burger_a" href="#" id="burger">
+                <ion-icon name="reorder-three-outline"></ion-icon>
+              </a>
+
               <ul class="header_ul">
                 <a href="index.html">
                   <li class="header_li_1">Home</li>
@@ -35,7 +42,7 @@
               </ul>
             </nav>
 
-            <a href="index.html">
+            <a class="title_a" href="index.html">
               <h1 class="header_title footer">Earthly<span>Artisry</span></h1>
             </a>
 
@@ -46,6 +53,20 @@
           </div>
         </header>
         <!-- header end -->
+
+        <div class="menu_bar" id="menu">
+          <a href="index.html">
+            <li>Home</li>
+          </a>
+
+          <a href="artworks.html">
+            <li>Artworks</li>
+          </a>
+
+          <a href="contact.html">
+            <li>Contact</li>
+          </a>
+        </div>
 
         <div class="section_1_div">
           <h2>Earth, Water, Air and Fire</h2>
@@ -122,11 +143,14 @@
             <h5>$48.57</h5>
           </div>
 
-          <div class="section_4_div_lites">
-            <img src="photos/Rectangle 97.png" alt="" />
+          <div class="section_4_div_lites hide">
+            <img  src="photos/Rectangle 97.png" alt="" />
             <h5>$48.57</h5>
           </div>
+          <button>View More</button>
         </div>
+
+        
       </section>
 
       <!-- section 5 -->
@@ -233,5 +257,12 @@
 
       <!-- container div end -->
     </div>
+    <script>
+      var btn = document.getElementById('burger')
+    var div_menu = document.getElementById("menu");
+    btn.onclick = function () {
+      div_menu.classList.toggle("dps");
+    };
+    </script>
   </body>
 </html>
