@@ -313,6 +313,16 @@
   .section_1 {
     height: 400px;
   }
+  .section_1 .menu_bar {
+    top: 25.5%;
+  }
+  .artwork_section_1 .menu_bar {
+    top: 12.4%;
+  }
+  .contact_section_1 .menu_bar {
+    top: 18.3%;
+  }
+
   header {
     padding: 10px 20px;
   }
@@ -402,6 +412,10 @@
 @media (max-width: 480px) {
   .section_1 {
     background-image: url(../photos/Rectangle\ 109.png);
+  }
+  .menu_bar {
+    width: 50vw;
+    height: 33.334vw;
   }
   .header_title {
     font-size: 8vw;

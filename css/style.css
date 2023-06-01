@@ -5,7 +5,7 @@
 .container {
   max-width: 1920px;
   width: 100%;
-  border: 5px solid red;
+  /* border: 5px solid red; */
   font-family: "Inter", sans-serif;
 }
 
@@ -204,6 +204,13 @@ span {
 
 .menu_bar a {
   color: #ffffff;
+}
+.menu_1 {
+  color: rgb(22, 22, 22);
+}
+.menu_bar li:hover {
+  color: rgb(22, 22, 22);
+  transition: 0.2s linear;
 }
 
 /* section 2 */
