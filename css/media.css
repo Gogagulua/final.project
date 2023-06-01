@@ -17,8 +17,18 @@
 }
 
 @media (max-width: 1200px) {
+  /* PAGE 1 */
   .section_4_div {
     flex-wrap: wrap;
+  }
+
+  /* PAGE 3 */
+  .iframe_lite {
+    flex-direction: column;
+    row-gap: 85px;
+  }
+  .iframe_lite div {
+    padding-left: 30px;
   }
 }
 
@@ -233,6 +243,18 @@
   .footer_div_2 {
     align-items: center;
   }
+
+  /* PAGE 3 */
+
+  .contact_section_2 {
+    padding: 160px 57px;
+  }
+  .contact_div_lite {
+    width: 100%;
+  }
+  iframe {
+    width: 100%;
+  }
 }
 
 @media (max-width: 750px) {
@@ -357,6 +379,24 @@
   .section_5_input {
     width: 195px;
   }
+
+  /* PAGE 3 */
+  .contact_section_1 {
+    height: 560px;
+  }
+  .contact_section_form h2 {
+    font-size: 32px;
+  }
+
+  .contact_section_form {
+    padding: 24px 20px;
+    left: 50%;
+    top: 59%;
+    transform: translate(-50%, -50%);
+  }
+  .contact_section_2 {
+    padding: 64px 57px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -455,11 +495,45 @@
   .main_div ion-icon {
     font-size: 4.2vw;
   }
+
+  /* PAGE 3 */
+
+  .contact_section_form {
+    width: 91.668vw;
+  }
+  .contact_section_form h2 {
+    width: 82.917vw;
+  }
+  .contact_section_form div input {
+    width: 38vw;
+  }
+  .contact_section_form textarea {
+    width: 82.917vw;
+  }
+  .contact_section_form button {
+    width: 30.625vw;
+  }
+  .contact_section_2 h3 {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+  .iframe_lite {
+    row-gap: 24px;
+  }
 }
 
 @media (max-width: 395px) {
   .search_input {
     width: 49.92vw;
+  }
+  .contact_section_form div {
+    gap: 20px;
+  }
+  .contact_section_form div input {
+    width: 47%;
+  }
+  .contact_section_form textarea {
+    width: 100%;
   }
 }
 

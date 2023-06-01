@@ -843,9 +843,6 @@ footer {
 }
 
 .contact_div_lite {
-  width: 1190px;
-  height: 408px;
-
   background: rgba(213, 144, 110, 0.3);
 }
 
@@ -862,7 +859,7 @@ footer {
 
 .iframe_lite {
   display: flex;
-  justify-content: space-between;
+  gap: 220px;
 }
 
 .iframe_lite a {
