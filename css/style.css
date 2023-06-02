@@ -31,9 +31,17 @@ header {
   transform: translateX(-50%);
   z-index: 1;
 }
-.burger_a {
+.burger_a,
+.burger_a_2 {
   display: none;
 }
+
+.burger_a_2 ion-icon {
+  width: 32px;
+  height: 36px;
+  color: #ffffff;
+}
+
 .header_div_1 {
   display: flex;
   justify-content: space-between;
@@ -704,12 +712,14 @@ footer {
 
 .lite_cards {
   width: 100%;
-  /* height: 19vw; */
-  /* border: 2px solid darkorange; */
+  cursor: pointer;
+  border-radius: 18px;
+  transition: 0.5s linear;
 }
 
 .lite_cards:hover {
-  box-shadow: 0 10px 5px rgb(94, 94, 94);
+  transition: 0.5s linear;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .name_p {

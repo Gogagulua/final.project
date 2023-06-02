@@ -24,8 +24,12 @@
           <div class="header_div_1">
             <nav>
               <a class="burger_a" href="#" id="burger">
-                <ion-icon name="reorder-three-outline"></ion-icon>
-              </a>
+                <ion-icon  name="reorder-three-outline"></ion-icon>
+               </a>
+
+               <a class="burger_a_2" href="#" id="close">
+                <ion-icon  name="close-outline"></ion-icon>
+               </a>
 
               <ul class="header_ul">
                 <a href="index.html">
@@ -258,10 +262,18 @@
       <!-- container div end -->
     </div>
     <script>
+      var cl = document.getElementById("close");
       var btn = document.getElementById('burger')
     var div_menu = document.getElementById("menu");
     btn.onclick = function () {
       div_menu.classList.toggle("dps");
+      cl.style.display = "block";
+      btn.style.display = "none";
+    };
+    cl.onclick = function () {
+      div_menu.classList.toggle("dps");
+      cl.style.display = "none";
+      btn.style.display = "block";
     };
     </script>
   </body>

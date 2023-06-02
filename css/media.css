@@ -139,6 +139,13 @@
     display: block;
   }
 
+  .section_1 .menu_bar {
+    top: 19.5%;
+  }
+  .contact_section_1 .menu_bar {
+    top: 19.5%;
+  }
+
   .menu_bar {
     display: flex;
   }
@@ -314,13 +321,13 @@
     height: 400px;
   }
   .section_1 .menu_bar {
-    top: 25.5%;
+    top: 27%;
   }
   .artwork_section_1 .menu_bar {
     top: 12.4%;
   }
   .contact_section_1 .menu_bar {
-    top: 18.3%;
+    top: 19.3%;
   }
 
   header {
