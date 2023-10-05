@@ -166,12 +166,12 @@
           <form class="section_5_form">
             <input
               class="section_5_input"
-              type="email"
+             
               id="email"
               placeholder="Email Address"
-              value=""
-              name="email adress"
-            /><button type="submit" class="section_5_button">SUBSCRIBE</button>
+             
+             
+            /><button type="button"  class="section_5_button" id="bttn">SUBSCRIBE</button>
           </form>
         </div>
       </section>
@@ -261,20 +261,10 @@
 
       <!-- container div end -->
     </div>
-    <script>
-      var cl = document.getElementById("close");
-      var btn = document.getElementById('burger')
-    var div_menu = document.getElementById("menu");
-    btn.onclick = function () {
-      div_menu.classList.toggle("dps");
-      cl.style.display = "block";
-      btn.style.display = "none";
-    };
-    cl.onclick = function () {
-      div_menu.classList.toggle("dps");
-      cl.style.display = "none";
-      btn.style.display = "block";
-    };
+    <script src="main.js">
+  
+
+  
     </script>
   </body>
 </html>
