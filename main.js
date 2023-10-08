@@ -1,24 +1,53 @@
 let inp = document.getElementById("email");
-let btn1 = document.getElementById("bttn");
-const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,4}$/;
+const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]{5,}$/;
+const api = "https://649c26020480757192378cd2.mockapi.io/api/v1/datas";
 
+class MyForm {
+  constructor() {
+    this.data = inp.value;
+  }
 
-btn1.addEventListener('click',(event)=> {
-    
-   event.preventDefault()
-    if (inp.value == "") {
-        console.log("its empty");
+  async sendData() {
+    const email = this.data.trim();
+
+    if (emailPattern.test(email)) {
+      alert("Invalid email format");
+      return;
+    }
+
+    if (email.length === 0) {
+      alert("Email field is empty");
+      return;
+    }
+
+    try {
+      const response = await fetch(api, {
+        method: "POST",
+        body: JSON.stringify({ email }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      alert("Email was sent successfully");
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
       }
-      else if (emailPattern.test(inp)) {
-        console.log("Valid email address");
-      } else {
-        console.log("Invalid email address");
-      }
-  })
 
+      const data = await response.json();
+      console.log("Response data:", data);
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  }
+}
 
-  var cl = document.getElementById("close");
-  var btn = document.getElementById('burger')
+const myForm = new MyForm();
+
+document.getElementById("bttn").addEventListener("click", () => {
+  myForm.sendData();
+});
+var cl = document.getElementById("close");
+var btn = document.getElementById("burger");
 var div_menu = document.getElementById("menu");
 btn.onclick = function () {
   div_menu.classList.toggle("dps");
@@ -30,3 +59,8 @@ cl.onclick = function () {
   cl.style.display = "none";
   btn.style.display = "block";
 };
+
+
+
+ 
+
